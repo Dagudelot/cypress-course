@@ -1,0 +1,18 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "dependencies": {
+    "cypress": "^10.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test:headful": "cypress open",
+    "test:headless": "cypress run --spec cypress/e2e/3-utest/aserciones.cy.js",
+    "test:headless:chrome": "cypress run --spec cypress/e2e/3-utest/aserciones.cy.js --browser chrome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
